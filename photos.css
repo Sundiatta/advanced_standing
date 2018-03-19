@@ -1,0 +1,333 @@
+#nav{
+  font-family: 'Montserrat', sans-serif;
+  width: 150px;
+  height: 600px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  float: left;
+  position: fixed;
+}
+
+#sminc{
+  margin-top: 20px;
+  width: 150px;
+}
+
+#sm{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  width: 35px;
+  border: 3px solid black;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 15px;
+  background-color: yellow;
+  letter-spacing: 3px;
+  animation: colorchange 5s infinite;
+  float: left;
+  color: black;
+}
+
+#inc{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  padding-top: 13px;
+  padding-left: 5px;
+  color: black;
+}
+
+#secs{
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+#about{
+  width: 70px;
+  margin-top: 50px;
+  padding:10px;
+  border: 2px solid black;
+}
+
+#photos{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#videos{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#web{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#essays{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes colorchange{
+  0% {background-color: yellow;}
+  25% {background-color: #c800ff;}
+  50% {background-color: #006fff;}
+  75% {background-color: #ff6600;}
+  100%{background-color: yellow;}
+}
+
+#about:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#photos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#videos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#web:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#essays:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#misc:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#wrap{
+  width: 1100px;
+  margin-top: 50px;
+  margin-left: 20%;
+  border-top: 2px solid black;
+}
+
+#title{
+  font-family: 'Montserrat', sans-serif;
+  width: 170px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#img1{
+  width: 730px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+#imgset1{
+  width: 300px;
+  float: right;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#imgset2{
+  width: 1050px;
+}
+
+#img5{
+  width: 530px;
+  float: left;
+}
+
+#img6{
+  float: left;
+}
+
+#img7{
+  width: 700px;
+  margin-top: 30px;
+  float: left;
+  margin-left: 20px;
+}
+
+#imgset3{
+  width: 310px;
+  margin-top: 30px;
+  float: left;
+}
+
+#img8{
+  width: 300px;
+  margin-bottom: 12px;
+}
+
+#img9{
+  width: 300px;
+  margin-bottom: 12px;
+}
+
+#imgset5{
+  width: 1030px;
+}
+
+#text{
+  width: 380px;
+  padding: 10px;
+  margin-top: 90px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  float: left;
+}
+
+#img11{
+  width: 600px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#wrap2{
+  width: 1100px;
+  margin-top: 2090px;
+  border-top: 2px solid black;
+}
+
+#title2{
+  font-family: 'Montserrat', sans-serif;
+  width: 170px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#imgset6{
+  width: 1050px;
+  margin-top: 30px;
+}
+
+#img12{
+  width: 530px;
+  float: left;
+}
+
+#imgset7{
+  width: 1050px;
+  margin-top: 30px;
+}
+
+#img14{
+  width: 365px;
+  float: left;
+}
+
+#img15{
+  width: 365px;
+  float: left;
+}
+
+#text2{
+  width: 350px;
+  float: left;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+#img17{
+  width: 600px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+#wrap3{
+  width: 1100px;
+  margin-top: 500px;
+  border-top: 2px solid black;
+}
+
+#title3{
+  font-family: 'Montserrat', sans-serif;
+  width: 170px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#imgset8{
+  width: 1050px;
+  margin-top: 30px;
+}
+
+#img18{
+  width: 530px;
+  float: left;
+}
+
+#imgset9{
+  width: 1050px;
+  margin-top: 30px;
+}
+
+#img20{
+  width: 365px;
+  float: left;
+}
+
+#img21{
+  width: 365px;
+  float: left;
+}
+
+#text3{
+  width: 350px;
+  float: left;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+#img23{
+  width:600px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#wrap4{
+  width: 1100px;
+  margin-top: 500px;
+}
+
+#bottom{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-left: 320px;
+  margin-bottom: 10px;
+  color: grey;
+}
