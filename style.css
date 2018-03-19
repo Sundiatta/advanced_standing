@@ -1,0 +1,157 @@
+#wrap{
+  width:900px;
+  height: 500px;
+  margin-left: 19%;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+#title{
+  width: 700px;
+  *border: 3px solid black;
+  padding:20px;
+  margin: auto;
+}
+
+#sm{
+  font-family: 'Oswald', sans-serif;
+  font-size: 250px;
+  width: 300px;
+  border: 3px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background-color: yellow;
+  letter-spacing: 3px;
+  float: left;
+  animation: colorchange 5s infinite;
+}
+
+#inc{
+  font-family: 'Oswald', sans-serif;
+  font-size: 250px;
+  padding-top: 20px;
+}
+
+#nav{
+  width: 780px;
+  height: 80px;
+  padding: 5px;
+  margin:auto;
+}
+
+#about{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width:120px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border: 2px solid black;
+  float: left;
+}
+
+#photos{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 120px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 30px;
+}
+
+#videos{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 120px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 30px;
+}
+
+#web{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 120px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 30px;
+}
+
+#essays{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 120px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 30px;
+}
+
+#wrap2{
+  width: 1100px;
+  margin-top: 20px;
+  margin-left: 13%;
+}
+
+#bottom{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+  color: grey;
+}
+
+@keyframes colorchange{
+  0% {background-color: yellow;}
+  25% {background-color: #c800ff;}
+  50% {background-color: #006fff;}
+  75% {background-color: #ff6600;}
+  100%{background-color: yellow;}
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#about:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#photos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#videos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#web:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#essays:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#misc:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
