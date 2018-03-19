@@ -1,0 +1,187 @@
+#nav{
+  font-family: 'Montserrat', sans-serif;
+  width: 150px;
+  height: 600px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  float: left;
+  position: fixed;
+  margin-top: 50px;
+}
+
+#title{
+  width: 700px;
+  border: 3px solid black;
+  padding:20px;
+  margin: auto;
+}
+
+#sminc{
+  margin-top: 20px;
+  width: 150px;
+}
+
+#sm{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  width: 35px;
+  border: 3px solid black;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 15px;
+  background-color: yellow;
+  letter-spacing: 3px;
+  animation: colorchange 5s infinite;
+  float: left;
+  color: black;
+}
+
+#inc{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  padding-top: 13px;
+  padding-left: 5px;
+  color: black;
+}
+
+#secs{
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+#about{
+  width: 70px;
+  margin-top: 50px;
+  padding:10px;
+  border: 2px solid black;
+}
+
+#photos{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#videos{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#web{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#essays{
+  width: 70px;
+  margin-top: 45px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#content{
+  font-family: 'Montserrat', sans-serif;
+  width: 1100px;
+  border-top: 2px solid black;
+  padding:10px;
+  margin-left: 20%;
+  margin-top: 50px;
+  float: left;
+}
+
+#text{
+  font-family: 'Montserrat', sans-serif;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  float: left;
+}
+
+#title{
+  font-family: 'Montserrat', sans-serif;
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#line{
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 460px;
+  height: 460px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+#image{
+ width: 400px;
+ margin-top: 50px;
+ margin-left: 70px;
+ float: left;
+}
+
+#bottom{
+  width: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-left: 33%;
+  margin-top: 590px;
+  color: grey;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes colorchange{
+  0% {background-color: yellow;}
+  25% {background-color: #c800ff;}
+  50% {background-color: #006fff;}
+  75% {background-color: #ff6600;}
+  100%{background-color: yellow;}
+}
+
+#about:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#photos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#videos:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#web:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#essays:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
+
+#misc:hover{
+  background-color: yellow;
+  box-shadow: 3px 3px grey;
+}
